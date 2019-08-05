@@ -1,6 +1,6 @@
 
 
-## human-motion-prediction
+## FSM-human-motion-prediction
 
 This is the code for the paper
 

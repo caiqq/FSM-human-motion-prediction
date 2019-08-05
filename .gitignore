@@ -2,3 +2,5 @@
 *.pyc
 data/
 experiments/
+.idea
+.idea/*

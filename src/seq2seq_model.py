@@ -1,4 +1,4 @@
-"""Sequence-to-sequence model for human motion prediction."""
+"""Sequence-to-sequence FSM model for human motion prediction."""
 
 from __future__ import absolute_import
 from __future__ import division

@@ -1,4 +1,4 @@
-"""Simple code for training an RNN for motion prediction."""
+"""Simple code for training an FSM for motion prediction."""
 
 from __future__ import absolute_import
 from __future__ import division
@@ -54,18 +54,6 @@ tf.app.flags.DEFINE_integer("load", 0, "Try to load a previous checkpoint.")
 
 FLAGS = tf.app.flags.FLAGS
 
-# train_dir = os.path.normpath(os.path.join(FLAGS.train_dir, FLAGS.action,
-#                                           'out_{0}'.format(FLAGS.seq_length_out),
-#                                           'iterations_{0}'.format(FLAGS.iterations),
-#                                           FLAGS.architecture,
-#                                           FLAGS.loss_to_use,
-#                                           'omit_one_hot' if FLAGS.omit_one_hot else 'one_hot',
-#                                           'depth_{0}'.format(FLAGS.num_layers),
-#                                           'size_{0}'.format(FLAGS.size),
-#                                           'lr_{0}'.format(FLAGS.learning_rate),
-#                                           'residual_vel' if FLAGS.residual_velocities else 'not_residual_vel'))
-#
-# summaries_dir = os.path.normpath(os.path.join(train_dir, "log"))  # Directory for TB summaries
 
 
 def create_model(session, actions, train_dir, summaries_dir, sampling=False):

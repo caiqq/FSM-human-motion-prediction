@@ -9,6 +9,8 @@ An End-to-end Functional Spiking Model for Sequential
 Feature Learning.
 
 
+### Status
+The code is on tidying up
 
 ### Dependencies
 
